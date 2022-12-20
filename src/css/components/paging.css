@@ -1,0 +1,87 @@
+.sel-footer-right ::placeholder {
+    color: rgb(16, 15, 15);
+}
+
+.sel-footer-right {
+    outline: none;
+}
+
+.ops-footer-right:hover {
+    font-family: boldd;
+    color: #44bd32;
+    background-color: #dfe6e9;
+}
+
+.ops-footer-right:focus {
+    color: rgb(9, 133, 9);
+}
+
+.el-select {
+    --el-select-input-focus-border-color: #44bd32 !important;
+    --el-select-border-color-hover: #babec5;
+}
+
+.el-select-dropdown__item.selected {
+    color: #ecf0f1;
+    background-color: rgb(9, 133, 9);
+    font-weight: 700;
+}
+
+.el-input {
+    --el-input-border-color: #babec5;
+}
+
+.f .el-input {
+    --el-input-border-color: none;
+}
+
+:root {
+    --el-border-radius-base: 2px;
+}
+
+.el-select-dropdown__wrap {
+    border: 1px solid #535c68;
+}
+
+
+/* CSS phân trang */
+
+.paging-footer-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* width: 244px; */
+    width: auto;
+    height: 35px;
+}
+
+:root {
+    --el-color-primary: #ffffff !important;
+    --el-color-white: #111111 !important;
+}
+
+.el-pager li.is-active {
+    cursor: pointer;
+    border: 1px solid #e0e0e0;
+}
+
+.el-pagination.is-background .el-pager li:not(.is-disabled):hover {
+    color: #6a6788;
+    background: #ffffff !important;
+}
+
+.el-pagination.is-background .el-pager li:not(.is-disabled).is-active {
+    border: 1px solid #e0e0e0 !important;
+}
+
+.pagination.is-background.el-pagination--small .el-pager li {
+    background: #ffffff !important;
+}
+
+.el-pagination.is-background .el-pager li {
+    background-color: #ffffff;
+}
+
+.el-pagination--small span:not([class*=suffix]) {
+    color: #6a6788;
+}

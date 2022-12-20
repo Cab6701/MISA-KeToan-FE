@@ -1,0 +1,46 @@
+/* Style interface */
+
+@import url(./components/button.css);
+@import url(./components/input.css);
+@import url(./components/text-align.css);
+@import url(./components/checkbox.css);
+@import url(./layout/nav.css);
+@import url(./layout/main.css);
+@import url(./layout/popup.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Misa Fonts Regular;
+    font-size: 13px;
+}
+
+@font-face {
+    font-family: Misa Fonts Regular;
+    src: url(../asset/fonts/notosans-regular.2cb88a13.woff2);
+}
+
+@font-face {
+    font-family: Misa Fonts Bold;
+    src: url(../asset/fonts/notosans-bold.3ede5aff.woff2);
+}
+
+@font-face {
+    font-family: Misa Fonts Italic;
+    src: url(../asset/fonts/notosans-italic.1c1aaac9.woff2);
+}

@@ -1,0 +1,42 @@
+.m-input {
+    border: 1px solid #DBDEFF;
+    border-radius: 2px;
+    height: 36px;
+    color: #bbbbbb;
+    outline: none;
+}
+
+.m-input:focus {
+    border-color: #01b075;
+    color: #000000;
+}
+
+.input-size {
+    height: 30px;
+    padding: 0 35px 0 10px;
+    width: 240px;
+}
+
+.icon-input {
+    top: 6px;
+    left: auto;
+    right: 12px;
+    position: absolute;
+}
+
+.input-icon:focus {
+    border: 1px solid #01b075;
+}
+
+.input-four {
+    width: 40%!important;
+}
+
+.input-six {
+    width: 60%!important;
+}
+
+.input-date {
+    padding: 5px 0 5px 10px!important;
+    font-family: 'MISA FONTS REGULAR'!important;
+}

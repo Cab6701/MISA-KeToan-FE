@@ -1,0 +1,91 @@
+.btn {
+    background-color: #019160;
+    color: white;
+    border: 1px solid #8d9096;
+    padding: 0 24px;
+    height: 34px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #2FBE8E;
+}
+
+.btn:active {
+    background-color: #018054;
+}
+
+.btn-default {
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 6px 16px;
+    height: 34px;
+    border-radius: 3px;
+    text-align: center;
+    color: #111;
+    border: 1px solid #8d9096;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+.btn-default:active {
+    background-color: #bbbcbc;
+}
+
+.btn-default:hover {
+    background-color: #d2d3d6;
+}
+
+.btn-default:focus::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    height: calc(100% + 2px);
+    width: calc(100% + 2px);
+    border: 3px solid #dcdcdc;
+}
+
+.btn-tertiary:default {
+    background-color: #FFFFFF;
+}
+
+.btn-tertiary:hover {
+    background-color: #F4F4F4;
+}
+
+.btn-tertiary:active {
+    background-color: #E0E0E0;
+}
+
+.btn-message {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.no {
+    float: left;
+}
+
+.yes {
+    float: right;
+}
+
+.btn-confirm-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-long {
+    border: 1px solid transparent;
+    color: #fff!important;
+    background-color: #2ca01c;
+}
+
+.btn-not-focus:focus-visible {
+    border: none!important;
+}

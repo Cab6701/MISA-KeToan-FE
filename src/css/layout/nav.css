@@ -1,0 +1,93 @@
+/* Style Navigation */
+
+.nav {
+    height: 100vh;
+    background-color: #393A3E;
+}
+
+.nav-header {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-header .togge {
+    width: 24px;
+    height: 24px;
+    background-image: url(../../asset/icon/toggle.png);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(10);
+    margin-right: 15px;
+}
+
+.app-img {
+    width: 96px;
+    height: 32px;
+    background-image: url(../../asset/Logo.svg);
+    background-size: cover;
+}
+
+.nav-header-text {
+    margin-left: 5px;
+    font-size: 24px;
+    color: white;
+}
+
+.list-menu-item {
+    height: calc(100vh - 48px);
+    padding-top: 14px;
+    overflow: auto;
+}
+
+.menu-item {
+    line-height: 42px;
+    display: flex;
+    height: 42px;
+    color: #fff;
+    padding: 0 14px 0 8px;
+    border-left: 6px solid transparent;
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+
+.item-icon {}
+
+
+/* .menu-item .item-icon */
+
+.menu-item .item-icon {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.item-text {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.item-icon .item-icon-img {
+    height: 24px;
+    width: 24px;
+    margin-right: 8px;
+}
+
+.list-menu-item .item-focus {
+    border-left: 6px solid #019160;
+    padding: 0 14px 0 8px;
+}
+
+.menu-item:hover::before {
+    background-color: #d4d7dc;
+    opacity: .2;
+    content: "";
+    width: calc(100% + 6px);
+    height: 42px;
+    left: -6px;
+    top: 0;
+    position: absolute;
+}

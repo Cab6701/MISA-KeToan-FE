@@ -1,0 +1,82 @@
+.sel-footer-right ::placeholder {
+    opacity: 1;
+    border: none;
+}
+
+.ops-footer-right:hover {
+    color: #2ca01c !important;
+    background-color: #f1f1f1 !important;
+}
+
+.ops-footer-right:focus {
+    background-color: #2ca01c !important;
+    color: #fff !important;
+}
+
+.el-select {
+    --el-select-input-focus-border-color: #2ca01c !important;
+}
+
+.el-select-dropdown__item.selected {
+    color: #ecf0f1 !important;
+    background-color: #2ca01c !important;
+    font-weight: 700;
+}
+
+.el-popper__arrow::before {
+    display: none !important;
+}
+
+.el-popper.is-pure {
+    border: none!important;
+}
+
+.el-input .el-input--suffix:focus:not(focus-visible) {
+    outline: #2ca01c !important;
+}
+
+.select-trigger .el-tooltip__trigger .el-tooltip__trigger:focus-visible {
+    outline: #2ca01c !important;
+}
+
+.el-select .sel-footer-right:focus-visible {
+    outline: #2ca01c !important;
+}
+
+.el-input__wrapper:focus:not(focus-visible) {
+    outline: #2ca01c !important;
+    border: #2ca01c!important;
+}
+
+
+/* css dropdown thực hiện hàng loạt */
+
+.dropdown-delete {
+    border: 2px solid #3b3c3f !important;
+    padding: 0 16px !important;
+    border-radius: 30px;
+    color: #111 !important;
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.delete-link {
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+.dropdown-delete:hover {
+    background-color: #d2d3d6 !important;
+}
+
+.dropdown-delete-link {
+    font-weight: 600;
+    color: #111111;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-delete-li:hover {
+    color: #111111!important;
+}
